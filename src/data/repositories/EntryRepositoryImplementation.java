@@ -74,5 +74,6 @@ public class EntryRepositoryImplementation implements EntryRepository{
     @Override
     public void clear() {
         entries.clear();
+        count = 0;
     }
 }

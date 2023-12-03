@@ -76,5 +76,6 @@ public class DiaryRepositoryImplementation implements DiaryRepository {
     @Override
     public void clear() {
         diaries.clear();
+        count = 0;
     }
 }
